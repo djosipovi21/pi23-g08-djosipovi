@@ -33,7 +33,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtTeacher = new System.Windows.Forms.TextBox();
             this.txtEvaluationDate = new System.Windows.Forms.TextBox();
             this.numPoints = new System.Windows.Forms.NumericUpDown();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -127,12 +127,12 @@
             this.label6.TabIndex = 9;
             this.label6.Text = "Ocjenjivač";
             // 
-            // textBox4
+            // txtTeacher
             // 
-            this.textBox4.Location = new System.Drawing.Point(241, 321);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 10;
+            this.txtTeacher.Location = new System.Drawing.Point(241, 321);
+            this.txtTeacher.Name = "txtTeacher";
+            this.txtTeacher.Size = new System.Drawing.Size(100, 20);
+            this.txtTeacher.TabIndex = 10;
             // 
             // txtEvaluationDate
             // 
@@ -166,6 +166,7 @@
             this.btnSave.TabIndex = 14;
             this.btnSave.Text = "Spremi";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // FrmEvaluation
             // 
@@ -176,7 +177,7 @@
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.numPoints);
             this.Controls.Add(this.txtEvaluationDate);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.txtTeacher);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -208,7 +209,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtTeacher;
         private System.Windows.Forms.TextBox txtEvaluationDate;
         private System.Windows.Forms.NumericUpDown numPoints;
         private System.Windows.Forms.Button btnCancel;
