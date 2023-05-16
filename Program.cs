@@ -7,6 +7,7 @@ using System.Windows.Forms;
 namespace Evaluation_Manager
 {
     //ovo je samo test
+    // ovo je drugi test
     internal static class Program
     {
         /// <summary>
