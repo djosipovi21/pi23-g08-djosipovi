@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace Evaluation_Manager
 {
+    //ovo je samo test
     internal static class Program
     {
         /// <summary>
