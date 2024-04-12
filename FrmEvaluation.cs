@@ -26,7 +26,7 @@ namespace Evaluation_Manager {
         }
 
         private void SetFormText() {
-            // test 2
+            // test
             Text = student.FirstName + " " + student.LastName;
         }
 
